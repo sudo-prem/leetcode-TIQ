@@ -1,2 +1,2 @@
 # LeetCode-TIQ
-Contains Solutions to Problems from Top Interview Questions of LeetCode
+C++ Solutions to all [TIQ of LeetCode](https://leetcode.com/explore/interview/card/top-interview-questions-easy)
