@@ -3,10 +3,26 @@ using namespace std;
 
 typedef long long ll;
 
+void reverseString(vector<char> &s)
+{
+    char temp{};
+    int n = s.size() - 1;
+    int mid = n / 2;
+    for (int i = 0; i <= mid; ++i)
+    {
+        temp = s[i];
+        s[i] = s[n - i];
+        s[n - i] = temp;
+    }
+}
+
 void solve()
 {
-    int n;
-    cin >> n;
+    vector<char> s{'h', 'e', 'l', 'l', 'o'};
+    reverseString(s);
+    for (auto i : s)
+        cout << i << ' ';
+    cout << endl;
 }
 
 int main()
